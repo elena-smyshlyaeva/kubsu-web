@@ -9,5 +9,3 @@ header('Content-Type: text/html; charset=UTF-8');
 print_r($_POST);
 
 print('Привет, мир!');
-
-$xml = file_get_contents('php://input');
